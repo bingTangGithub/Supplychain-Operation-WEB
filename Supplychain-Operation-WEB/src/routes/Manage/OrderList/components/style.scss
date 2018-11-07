@@ -1,0 +1,133 @@
+.m-orderList {
+  form .ant-col-8 {
+    margin-bottom: 20px;
+  }
+  .order table{
+    border-collapse: separate;
+    border-spacing: 0px 40px;
+    margin-bottom: -40px;
+    margin-top: -40px;
+    background: #fff;
+    min-width: 900px;
+    th{
+      border-bottom:1px solid #e9e9e9;
+      &.order-info{
+        width: 330px;
+      }
+    }
+    td{
+      border-top:1px solid #e9e9e9;
+      border-right: 1px solid #e9e9e9;
+      max-width: 400px !important;
+      &:first-child .order-info-top span{
+        margin-right: 20px;
+      }
+      .ant-btn-default{
+        line-height: 26px;
+      }
+      a.ant-btn-primary{
+        line-height: 26px;
+      }
+    }
+    .ant-table-tbody>tr>td{
+      max-width: 400px !important;
+      padding: 0;
+    }
+    .productPrice{
+      width: 100px;
+    }
+    .productNumber{
+      width: 80px;
+    }
+    .FL{
+      float: left;
+    }
+    .vertical-text-center{
+      display: table;
+      margin: -10px 0;
+      text-align: center;
+    }
+  }
+
+  .order .order-info{
+    position: relative;
+  }
+
+  .order .order-info-top{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+    padding-left: 20px;
+    background: rgba(244,211,46,.1);
+    width: 1000%;
+    text-align: left;
+  }
+
+  .order .product{
+    text-align: left;
+    display: block;
+    //clear: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9e9e9;
+  }
+
+  .order .product:after{
+    display: block;
+    content: " ";
+    font-size: 0;
+    height: 0;
+    clear: both;
+  }
+
+  .order .product:last-child{
+    border-bottom: none;
+  }
+
+  .product-img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    img{
+      max-width: 80px;
+      height: 80px;
+    }
+  }
+
+  .name-and-sku{
+    float: left;
+    margin-left: 10px;
+    width: 220px;
+    p{
+      margin-top: 8px;
+      margin-bottom: 8px;
+      line-height: 1.15;
+    }
+    .sku-list{
+      color: #bfbfbf;
+    }
+  }
+
+  .order-tabs{
+    position:relative;
+    bottom:-48px;
+    //z-index: 10;
+  }
+
+  .order table td.pd010{
+    padding:0 10px !important;
+  }
+
+  .order table .ant-table-tbody>tr>td:last-child{
+    line-height: 35px;
+  }
+
+  .order .ant-table-tbody tr:nth-child(odd) {
+    background: #fff;
+  }
+}
+

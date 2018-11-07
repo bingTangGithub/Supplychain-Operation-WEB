@@ -1,0 +1,17 @@
+.m-frontcatelist {
+  table tr {
+    td:first-child {
+      padding-left: 20px;
+      text-align: left!important;
+    }
+    td:last-child {
+      text-align: right!important;
+    }
+  }
+  .ant-table-row-level-1 {
+    background-color: #fbfbfb!important;
+    &:hover>td {
+      background-color: #f7f7f7!important;
+    }
+  }
+}

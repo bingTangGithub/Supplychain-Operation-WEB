@@ -1,0 +1,38 @@
+.fp-steps {
+  padding: 80px 50px 0;
+}
+
+.logo-wrapper {
+  line-height: normal;
+  color: #fff;
+}
+
+.logo-title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.logo-text {
+  color: rgba(255, 255, 255, 0.71);
+}
+
+.header-link {
+  color: #fff;
+  a {
+    color: #fff;
+  }
+  a:hover {
+    color: rgba(255, 255, 255, 0.71);
+  }
+}
+
+.fp-form {
+  padding: 80px 260px;
+  background: #fff;
+  .fp-form-button {
+    width: 100%;
+  }
+  .ant-form-item {
+    width: 300px;
+  }
+}

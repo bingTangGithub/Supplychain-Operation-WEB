@@ -1,0 +1,43 @@
+.m-productClassify {
+  table tr {
+    td:first-child {
+      padding-left: 15px;
+      text-align: left!important;
+    }
+    td:last-child {
+      text-align: right!important;
+    }
+  }
+  .ant-tag {
+    margin-top: 3px;
+  }
+  .ant-tag.ant-tag-has-color {
+    background-color: #ff4965!important;
+    border-color: #ff4965!important;
+  }
+}
+
+.m-productClassify-modal {
+  form > div:last-child { 
+    /*第二个card*/
+    .ant-col-6 {
+      display: none;
+    }
+    .ant-col-14 {
+      margin-left: 25%;
+    }
+
+    .ant-col-12 {
+      width: 100%;
+      .ant-col-6 {
+        display: inline-block;
+      }
+    }
+
+    .ant-form-item-control > div {
+      display: inline-block;
+      width: 25%;
+    }
+  }
+ 
+}

@@ -1,0 +1,11 @@
+.doubleTimePicker {
+  width: 45%;
+}
+.doubleTimePicker .ant-time-picker-input[disabled] {
+  border: none;
+  background-color: white;
+  color: rgba(0,0,0,.65);
+}
+.doubleTimePicker .ant-time-picker-input[disabled]+.ant-time-picker-icon {
+  display: none;
+}

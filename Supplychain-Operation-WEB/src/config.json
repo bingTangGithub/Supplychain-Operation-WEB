@@ -1,0 +1,75 @@
+{
+  "apiAddress": {
+    "development": "//gateway.qafc.ops.com/operation-manage-supplychain",
+    "dev": "//gateway.dev.ops.com/operation-manage-supplychain",
+    "qaif": "//172.16.2.71:8068/mockjs/58",
+    "qafc": "//gateway.qafc.ops.com/operation-manage-supplychain",
+    "pre": "//gatewayuat.toobob.com/operation-manage-supplychain",
+    "online": "//gateway.toobob.com/operation-manage-supplychain",
+    "mock": "//172.16.2.71:8068/mockjsdata/85"
+  },
+  "purchaseAddress": {
+    "development": "//gateway.qafc.ops.com/purchase",
+    "dev": "//gateway.dev.ops.com/purchase",
+    "qaif": "//172.16.2.71:8068/mockjs/58",
+    "qafc": "//gateway.qafc.ops.com/purchase",
+    "pre": "//gatewayuat.toobob.com/purchase",
+    "online": "//gateway.toobob.com/purchase"
+  },
+  "userCenterAddress": {
+    "development": "//gateway.qafc.ops.com/xgusercenter",
+    "dev": "//gateway.dev.ops.com/xgusercenter",
+    "qaif": "//xgusercenter.qaif.ops.com",
+    "qafc": "//gateway.qafc.ops.com/xgusercenter",
+    "pre": "//gatewayuat.toobob.com/xgusercenter",
+    "online": "//gateway.toobob.com/xgusercenter",
+    "mock": "//gateway.dev.ops.com/xgusercenter"
+  },
+  "countly": {
+    "appKey": {
+      "development": "3216f8bd90cedbebe05a7af4284d475479fa8a58",
+      "dev": "3216f8bd90cedbebe05a7af4284d475479fa8a58",
+      "qaif": "3216f8bd90cedbebe05a7af4284d475479fa8a58",
+      "qafc": "3216f8bd90cedbebe05a7af4284d475479fa8a58",
+      "pre": "3216f8bd90cedbebe05a7af4284d475479fa8a58",
+      "online": "ef3fd649942b5d8688e2e0300d9b60bcf6802f5e",
+      "mock": "3216f8bd90cedbebe05a7af4284d475479fa8a58"
+    }
+  },
+  "entryUrl": {
+    "development": "http://localhost:3000",
+    "dev": "http://tubobo-operationentry-web.dev.ops.com",
+    "qaif": "",
+    "qafc": "http://tubobo-operationentry-web.qafc.ops.com",
+    "pre": "http://operationentryuat.toobob.com",
+    "online": "http://operationentry.toobob.com"
+  },
+  "tokenUrl":{
+    "development": "//tubobo-admin.dev.ops.com",
+    "dev": "//tubobo-admin.dev.ops.com",
+    "qaif": "",
+    "qafc": "//tubobo-admin.qafc.ops.com",
+    "pre": "//adminuat.toobob.com",
+    "online": "//admin.toobob.com"
+  },
+  "platformId": {
+    "development": "2",
+    "dev": "2",
+    "qafc": "2",
+    "pre": "2",
+    "online": "2"
+  },
+  "bizCode": {
+    "development": "1",
+    "dev": "1",
+    "qafc": "1",
+    "pre": "1",
+    "online": "1"
+  },
+  "envStr": {
+    "development": "本地环境",
+    "dev": "开发环境",
+    "qafc": "测试环境",
+    "pre": "预发环境"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "resultCode": "0",
+  "resultData": [
+    {
+      "id": "1",
+      "name": "业务",
+      "children": [{
+          "id": "14",
+          "name": "店铺管理",
+          "icon": "shop",
+          "children": [
+            {
+              "id": "141",
+              "name": "店铺列表",
+              "href": "/Manage/ShopList"
+            }
+          ]
+        }, {
+          "id": "15",
+          "name": "商品管理",
+          "icon": "bars",
+          "children": [{
+            "id": "151",
+            "name": "商品列表",
+            "href": "/Manage/ProductList"
+          }, {
+            "id": "154",
+            "name": "待审核商品",
+            "href": "/Manage/VerifyList"
+          }, {
+            "id": "152",
+            "name": "前端分类",
+            "href": "/Manage/FrontCateList"
+          }, {
+            "id": "153",
+            "name": "标签列表",
+            "href": "/Manage/TagList"
+          }]
+        }, {
+          "id": "11",
+          "name": "订单管理",
+          "icon": "pay-circle-o",
+          "children": [{
+            "id": "111",
+            "name": "订单列表",
+            "href": "/Manage/OrderList"
+          }, {
+            "id": "112",
+            "name": "收款单列表",
+            "href": "/Manage/CheckoutList"
+          }]
+        }, {
+          "id": "13",
+          "name": "营销中心",
+          "icon": "line-chart",
+          "children": [{
+            "id": "131",
+            "name": "优惠券",
+            "href": "/Manage/Coupon"
+          }, {
+            "id": "132",
+            "name": "限时特价",
+            "href": "/Manage/Activity"
+          }, {
+            "id": "133",
+            "name": "优惠券发放",
+            "href": "/Manage/CouponGrant"
+          }]
+        }
+      ]
+    }
+  ],
+  "resultDesc": "SUCCESS"
+}

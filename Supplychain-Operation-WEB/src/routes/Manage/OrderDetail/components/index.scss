@@ -1,0 +1,116 @@
+.m-orderdetail {
+    width: 100%;
+    margin-bottom: 80px;
+    h2 {
+        padding-top: 15px;
+        padding-left: 15px;  
+    }
+    .title {
+        // background: pink;
+        height: 40px;
+    }
+    .status {
+        padding-top: 10px;
+        padding-left: 15px;
+        line-height: 2;
+
+        .currentStatus {
+            font-size: 18px;  
+        }
+        .cancel {
+            p {
+                padding: 5px 0;
+            }
+            .overTime {
+                color: red;
+                padding: 0 5px;
+            }
+            .cancelOrder, .sendGoods {
+                margin-left: 20px;
+            }
+        }
+    }
+    .info {
+        padding: 15px 0 0 15px;
+        line-height: 30px; 
+        .left {
+            span {
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+        .right {
+            height: 88px;
+        } 
+        // background: greenyellow;
+    }
+    .products {
+        padding-top: 20px;
+        border-top: 1px solid #ccc;
+        
+        .priceInfo {
+            display: flex;
+            flex-direction: column;
+             
+            p {
+                padding-right: 65px;
+                line-height: 30px;
+                text-align: right;
+                
+                b {
+                    font-size: 18px;
+                    color: red;
+                }
+            }
+            .buttom {
+                display: flex;
+                justify-content: flex-end;
+                margin: 10px 15px;
+
+                span {
+                    display: inline-flex;                   
+                    white-space: nowrap;
+
+                }
+            }
+            button {
+                float: right;
+                margin-right: 16px;
+            }
+        }
+        .header {
+            padding-left: 15px;
+            
+            i {
+                font-size: 12px;
+                font-weight: bold;
+            }
+            span {
+                margin: 0 7px;
+            }
+        }
+        .discount {
+            margin-left: 20px;
+        }
+        .productInfo {
+            display: flex;
+            
+            img {
+                width: 100px;
+                height: 100px;
+            }
+            .spec {
+                display: flex;
+                flex-direction: column;
+                margin-left: 15px;
+
+                span {
+                    text-align: left;
+                }
+            }
+        }
+        .logisticsFee {
+            color: #999;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.m-collectDetail {
+    .all-price {
+        padding: 0 16px 16px 16px;
+    }
+    .should-price {
+        padding-bottom: 10px;
+        span {
+            padding-left: 30px;
+        }
+    }
+    .money {
+        float: right;
+        div {
+            text-align: left;
+        }
+    }
+}

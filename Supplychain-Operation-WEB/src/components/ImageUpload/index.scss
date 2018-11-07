@@ -1,0 +1,7 @@
+.img-upload {
+  &.disabled {
+    .anticon.anticon-delete {
+      display: none;
+    }
+  }
+}

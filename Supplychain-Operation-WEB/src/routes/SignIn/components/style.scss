@@ -1,0 +1,39 @@
+.xg .login-layout.ant-layout {
+  background-image: linear-gradient(145deg,#444,#222);
+}
+.login-form {
+  max-width: 500px;
+  min-width: 360px;
+  background: #fff;
+  padding: 40px;
+  .login-form-button {
+    width: 100%;
+  }
+  .login-logo-wrapper {
+    text-align: center;
+    font-size: 22px;
+    /*color: #ff4965;*/
+    margin: 16px 0;
+  }
+  .login-fp {
+    text-align: center;
+  }
+}
+
+.login-content {
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-confirm .ant-modal-body {
+  font-size: 14px;
+  .ant-confirm-content {
+    margin-left: 0
+  }
+}
+
+.xg .ant-confirm-btns .ant-btn{
+  float: none !important;
+}

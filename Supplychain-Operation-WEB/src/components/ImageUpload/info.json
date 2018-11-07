@@ -1,0 +1,8 @@
+{
+  "policy": "eyJleHBpcmF0aW9uIjoiMjAyMC0wMS0wMVQxMjowMDowMC4wMDBaIiwiY29uZGl0aW9ucyI6W1siY29udGVudC1sZW5ndGgtcmFuZ2UiLDAsMTA0ODU3NjAwMF1dfQ==",
+  "OSSAccessKeyId": "LTAIw9DrznRSxSqA",
+  "Signature": "pyGYngL8UnjPpo9biU+VUADpNjs=",
+  "Filename": "${filename}",
+  "key": "goodscenter/${filename}",
+  "success_action_status": 200
+}

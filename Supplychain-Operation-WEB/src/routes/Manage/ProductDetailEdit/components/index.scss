@@ -1,0 +1,55 @@
+.m-product-detail {
+  .product-detail-form {
+    .area-list-disabled {
+      line-height: 32px;
+      display: inline-block;
+      padding-right: 20px;
+    }
+  }
+
+  .product-detail-shopname {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0,0,0,.85);
+    text-align: center;
+    line-height: 46px;
+  }
+
+  .form-section {
+    margin-bottom: 10px;
+    .ant-upload-select-picture-card i {
+      font-size: 28px;
+      color: #999;
+    }
+
+    .ant-upload-select-picture-card .ant-upload-text {
+      margin-top: 8px;
+      font-size: 12px;
+      color: #666;
+    }
+
+    .ant-upload-list-picture-card .ant-upload-list-item {
+      padding: 8px;
+      float: left;
+      width: 96px;
+      height: 96px;
+      margin: 0 8px 8px 0;
+    }
+    .img-list {
+      .img-list-required {
+        font-family: 'SimSun';
+        color: red;
+      }
+      .img-list-label {
+        padding-right: 12px;
+      }
+    }
+    .ant-form-item .ant-checkbox-group {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  .sku-cfg-error {
+    color: red;
+  }
+}

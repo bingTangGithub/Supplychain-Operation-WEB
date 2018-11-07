@@ -1,0 +1,23 @@
+.ql-container {
+  height: 250px;
+}
+
+.ql-toolbar, ql-header {
+  line-height: initial;
+}
+
+.has-error {
+  .ql-container, .ql-toolbar {
+    border-color: #f04134;
+  }
+}
+
+.ql-editor {
+  padding: 4px 7px;
+}
+
+.ql-editor.ql-blank:before {
+  font-style: normal;
+  font-size: 12px;
+  color: #ccc;
+}
